@@ -21,7 +21,7 @@ const Calculator = () => {
         setInputValue('Error');
       }
     } else if (event.key === 'Backspace') {
-      setInputValue(inputValue.slice(0, -1));
+      setInputValue(inputValue.slice(0, -1)); 
     } else if (event.key === 'Escape') {
       setInputValue('');
     }
